@@ -1,0 +1,25 @@
+.clientPanelContainer {
+  background: var(--background);
+  margin-top: 4rem;
+  margin-left: 8rem;
+}
+
+.clientPanelContent {
+  width: 80%;
+  height: 30%;
+  padding-bottom: 2rem ;
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  border-bottom: 1px solid #f0f0e6;
+
+  h2{
+    color: var(--title);
+  }
+  
+  .png{
+    width: 2rem;
+    height: 1.8rem;
+    margin-right: 2rem;
+  }
+}
