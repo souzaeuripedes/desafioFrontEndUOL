@@ -1,0 +1,29 @@
+.listUserContainer {
+  background: var(--background);
+  margin-top: 2rem;
+  margin-left: 8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.listUserContent {
+  width: 80%;
+  height: 30%;
+  padding-bottom: 2rem ;
+  align-items: stretch;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--border);
+  
+  .listUserButton{
+    display: block;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: end;
+    margin-left: 85%;
+    margin-top: -5%;
+  }
+
+  h3{
+    padding-bottom: 1rem;
+  }
+}
